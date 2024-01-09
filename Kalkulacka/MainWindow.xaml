@@ -5,8 +5,55 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kalkulacka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="715" Width="400">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Button Content="0" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click" FontSize="50" />
 
+        <Button Content="1" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
+        <Button Content="2" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_1" FontSize="50" />
+        <Button Content="3" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+
+        <Button Content="4" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
+        <Button Content="5" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" FontSize="50" />
+        <Button Content="6" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+
+        <Button Content="7" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
+        <Button Content="8" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" FontSize="50" />
+        <Button Content="9" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+
+        <Button Content="," HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+        <Button Content="+/-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
+        <Button Content="=" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" Background="#FF8EB0F3" />
+
+        <Button Content="+" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+        <Button Content="-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+        <Button Content="x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+
+        <Button Content="÷" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+        <Button Content="⇐" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+
+        <Button Content="√" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+        <Button Content="C" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
+
+        <Button Content="X²" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" FontSize="50" />
+        <Button Content="CE" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" FontSize="50" />
+
+        <Button Content="¹/x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
+        <Button Content="🤑" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
     </Grid>
 </Window>
