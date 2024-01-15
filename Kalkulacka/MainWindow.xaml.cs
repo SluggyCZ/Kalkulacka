@@ -27,12 +27,84 @@ namespace Kalkulacka
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            ResultTextBlock.Text = ResultTextBlock.Text + "0";
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            ResultTextBlock.Text = ResultTextBlock.Text + "1";
+        }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "2";
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "3";
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "4";
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "5";
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "6";
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "7";
+        }
+
+        private void Button_Click_8(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "8";
+        }
+
+        private void Button_Click_9(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text + "9";
+        }
+
+        private void Button_Click_C(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = "";
+        }
+
+        private void Button_Click_CE(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = "";
+        }
+        
+        private void Button_Click_clear(object sender, RoutedEventArgs e)
+        {
+            ResultTextBlock.Text = ResultTextBlock.Text;
+        }
+        
+        private void Button_Click_carka(object sender, RoutedEventArgs e)
+        {
+            string hodnota = ResultTextBlock.Text;
+            Boolean Found = false;
+                for (int i = 0; i < hodnota.Length; i++)
+                {
+                    if (hodnota[i] == ',')
+                    {
+                        Found = true;
+                    }
+                }
+                if (!Found)
+                {
+                    ResultTextBlock.Text += ",";
+                }       
         }
     }
 }
