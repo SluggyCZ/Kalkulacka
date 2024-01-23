@@ -86,10 +86,9 @@ namespace Kalkulacka
         
         private void Button_Click_clear(object sender, RoutedEventArgs e)
         {
-            string hodnota = ResultTextBlock.Text;
-            
-            
-            if (!string.IsNullOrEmpty(hodnota));
+            string? hodnota = ResultTextBlock.Text;
+
+            if (hodnota != string.Empty)
             {
                 double cislo = double.Parse(ResultTextBlock.Text);
                 hodnota = hodnota.Remove(hodnota.Length - 1);
