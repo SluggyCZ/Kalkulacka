@@ -22,41 +22,41 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <Button Content="0" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click" FontSize="50" />
+        <Button Content="0" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click" FontSize="50" />
 
-        <Button Content="1" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" Click="Button_Click_1" FontSize="50" />
-        <Button Content="2" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_2" FontSize="50" />
-        <Button Content="3" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" Click="Button_Click_3" FontSize="50" />
+        <Button Content="1" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" Click="Button_Click_1" FontSize="50" />
+        <Button Content="2" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click_2" FontSize="50" />
+        <Button Content="3" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" Click="Button_Click_3" FontSize="50" />
 
-        <Button Content="4" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" Click="Button_Click_4" FontSize="50" />
-        <Button Content="5" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_5" FontSize="50" />
-        <Button Content="6" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" Click="Button_Click_6" FontSize="50" />
+        <Button Content="4" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" Click="Button_Click_4" FontSize="50" />
+        <Button Content="5" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click_5" FontSize="50" />
+        <Button Content="6" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" Click="Button_Click_6" FontSize="50" />
 
-        <Button Content="7" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" Click="Button_Click_7" FontSize="50" />
-        <Button Content="8" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_8" FontSize="50" />
-        <Button Content="9" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" Click="Button_Click_9" FontSize="50" />
+        <Button Content="7" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" Click="Button_Click_7" FontSize="50" />
+        <Button Content="8" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click_8" FontSize="50" />
+        <Button Content="9" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" Click="Button_Click_9" FontSize="50" />
 
-        <Button Content="," HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" Click="Button_Click_carka" FontSize="50" />
-        <Button Content="+/-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
-        <Button Content="=" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" Background="#FF8EB0F3" />
+        <Button Content="," HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" Click="Button_Click_carka" FontSize="50" />
+        <Button Content="+/-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" Click="Button_Click_zapor" FontSize="50" />
+        <Button Content="=" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" FontSize="50" Background="#FF8EB0F3" />
 
-        <Button Content="+" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
-        <Button Content="-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
-        <Button Content="x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
+        <Button Content="+" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" FontSize="50" />
+        <Button Content="-" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" FontSize="50" />
+        <Button Content="x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" FontSize="50" />
 
-        <Button Content="÷" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" FontSize="50" />
-        <Button Content="⇐" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="3" Click="Button_Click_clear" FontSize="50" />
+        <Button Content="÷" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" FontSize="50" />
+        <Button Content="⇐" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="3" Click="Button_Click_clear" FontSize="50" />
 
-        <Button Content="√x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" FontSize="50" />
-        <Button Content="C" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="2" Click="Button_Click_C" FontSize="50" />
+        <Button Content="√x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" FontSize="50" />
+        <Button Content="C" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="2" Click="Button_Click_C" FontSize="50" />
 
-        <Button Content="X²" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_nadruhou" FontSize="50" />
-        <Button Content="CE" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="1" Click="Button_Click_CE" FontSize="50" />
+        <Button Content="X²" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click_nadruhou" FontSize="50" />
+        <Button Content="CE" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="1" Click="Button_Click_CE" FontSize="50" />
 
-        <Button Content="¹/x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50" />
-        <Button Content="🤑" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="80" Width="80" Grid.Column="0" FontSize="50"  />
+        <Button Content="¹/x" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" Click="Button_Click_zlomek" FontSize="50" />
+        <Button Content="%" HorizontalAlignment="center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="100" Width="100" Grid.Column="0" FontSize="50"  />
         
-        <TextBlock Grid.ColumnSpan="4" HorizontalAlignment="center" Height="80" Margin="0,0,0,0" TextWrapping="Wrap" Name="ResultTextBlock" Text="" VerticalAlignment="Center" Width="380" Background="LightBlue" FontSize="70" TextAlignment="Right" />
+        <TextBlock Grid.ColumnSpan="4" HorizontalAlignment="center" Height="100" Margin="0,0,0,0" TextWrapping="Wrap" Name="ResultTextBlock" Text="" VerticalAlignment="Center" Width="400" Background="LightBlue" FontSize="70" TextAlignment="Right" />
 
     </Grid>
 </Window>

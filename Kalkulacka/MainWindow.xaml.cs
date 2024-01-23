@@ -24,7 +24,6 @@ namespace Kalkulacka
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ResultTextBlock.Text = ResultTextBlock.Text + "0";
@@ -87,7 +86,15 @@ namespace Kalkulacka
         
         private void Button_Click_clear(object sender, RoutedEventArgs e)
         {
-            ResultTextBlock.Text = ResultTextBlock.Text;
+            string hodnota = ResultTextBlock.Text;
+            
+            
+            if (!string.IsNullOrEmpty(hodnota));
+            {
+                double cislo = double.Parse(ResultTextBlock.Text);
+                hodnota = hodnota.Remove(hodnota.Length - 1);
+            }
+            ResultTextBlock.Text = hodnota;
         }
         
         private void Button_Click_carka(object sender, RoutedEventArgs e)
@@ -106,5 +113,26 @@ namespace Kalkulacka
                     ResultTextBlock.Text += ",";
                 }       
         }
+        private void Button_Click_zapor(object sender, RoutedEventArgs e)
+        {
+            string hodnota = ResultTextBlock.Text;
+            double cislo = double.Parse(ResultTextBlock.Text);
+
+            ResultTextBlock.Text = (cislo * (-1)).ToString();    
+        }
+        private void Button_Click_nadruhou(object sender, RoutedEventArgs e)
+        {
+            double cislo = double.Parse(ResultTextBlock.Text);
+            ResultTextBlock.Text = (cislo*cislo).ToString();
+        }
+
+        private void Button_Click_zlomek(object sender, RoutedEventArgs e)
+        {
+            string hodnota = ResultTextBlock.Text;
+            double cislo = double.Parse(ResultTextBlock.Text);
+            ResultTextBlock.Text = (1 / cislo).ToString();
+        }
+
+
     }
 }
